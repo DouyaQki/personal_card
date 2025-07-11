@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+body {
+  background-color: #0f0f0f;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b8bcc3;
+}
+
+#banner-animation {
+  animation-name: banner-loop;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+@keyframes banner-loop {
+  0% {
+    background-position: 0% 100%;
+  }
+    50% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+#banner-animation {
+  background-image: url("../assets//banner_bg.png")
+}
