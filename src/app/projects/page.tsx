@@ -2,6 +2,7 @@ import Image from "next/image";
 import acs2025 from "@/assets/acs2025.jpg";
 import product_landing_page from "@/assets/product_landing_page.jpg";
 import tribute_page from "@/assets/tribute_page.jpg";
+import survey_form from "@/assets/sf.jpg";
 
 const projects = [
   {
@@ -25,6 +26,14 @@ const projects = [
     title: "Tribute Page",
     description:
       "JoJo's Bizarre Adventure is really fun, so I created a tribute page for Araki.",
+  },
+  {
+    id: 4,
+    src: survey_form,
+    href: "https://douyaqki.github.io/responsive_web_design/survey_form/index.html",
+    title: "Survey Form",
+    description:
+      "A contact form.",
   },
 ];
 
