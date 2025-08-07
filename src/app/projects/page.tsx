@@ -3,6 +3,13 @@ import acs2025 from "@/assets/acs2025.jpg";
 import product_landing_page from "@/assets/product_landing_page.jpg";
 import tribute_page from "@/assets/tribute_page.jpg";
 import survey_form from "@/assets/sf.jpg";
+import todo from "@/assets/todo.jpg";
+import drum_machine from "@/assets/drum_machine.jpg";
+import StreetFighterQuotes from "@/assets/StreetFighterQuotes.jpg";
+import javascript_calculator from "@/assets/javascript_calculator.jpg";
+import _25_5_clock from "@/assets/25_5_clock.jpg";
+import markdown_previewer from "@/assets/markdown_previewer.jpg";
+import portfolio_freecodecamp from "@/assets/portfolio_freecodecamp.jpg";
 
 const projects = [
   {
@@ -32,8 +39,56 @@ const projects = [
     src: survey_form,
     href: "https://douyaqki.github.io/responsive_web_design/survey_form/index.html",
     title: "Survey Form",
-    description:
-      "A contact form.",
+    description: "A contact form.",
+  },
+  {
+    id: 5,
+    src: todo,
+    href: "https://douyaqki.github.io/todo/",
+    title: "TODO",
+    description: "For creating, organizing, and managing your pending tasks.",
+  },
+  {
+    id: 6,
+    src: drum_machine,
+    href: "https://douyaqki.github.io/drum_machine/",
+    title: "Drum Machine",
+    description: "Play the drum machine by typing the keys or clicking the buttons.",
+  },
+  {
+    id: 7,
+    src: StreetFighterQuotes,
+    href: "https://douyaqki.github.io/random_quote_machine/",
+    title: "Random Quote Machine",
+    description: "Street Fighter II was a great game at that time.",
+  },
+  {
+    id: 8,
+    src: javascript_calculator,
+    href: "https://douyaqki.github.io/javascript_calculator/",
+    title: "JavaScript Calculator",
+    description: "A simple calculator to do some basic maths.",
+  },
+  {
+    id: 9,
+    src: _25_5_clock,
+    href: "https://douyaqki.github.io/25_5_clock/",
+    title: "25-5 clock",
+    description: "A kitchen timer to break work into intervals.",
+  },
+  {
+    id: 10,
+    src: markdown_previewer,
+    href: "https://douyaqki.github.io/markdown_previewer/",
+    title: "Markdown Previewer",
+    description: "Write text using Markdown syntax and see the formatted output in real-time",
+  },
+  {
+    id: 11,
+    src: portfolio_freecodecamp,
+    href: "https://douyaqki.github.io/responsive_web_design/personal_portfolio/",
+    title: "Personal Portfolio",
+    description: "I made this as part of my final project for Freecodecamp.",
   },
 ];
 
